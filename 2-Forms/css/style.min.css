@@ -1,0 +1,42 @@
+body {
+  background-color: #F39494;
+}
+
+h1 {
+  color: #333333;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+h2 {
+  color: #666666;
+  font-size: 18px;
+}
+
+h3 {
+  color: #333333;
+  font-size: 16px;
+}
+
+label {
+  color: #666666;
+}
+
+.bg {
+  background-color: #F5F5F5;
+}
+
+input {
+  color: #999999;
+  font-size: 16px;
+}
+
+button {
+  background-color: #089FE0;
+  color: #FFFFFF;
+  font-size: 16px;
+}
+
+.agree {
+  font-size: 18px;
+}
