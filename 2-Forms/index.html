@@ -11,19 +11,24 @@
         <form action="#">
 
         <h1>Регистрация</h1>
-        <p>Уже есть аккаунт? <a href="#">Войти</a></p>
+        <p class="entrada">Уже есть аккаунт? <a href="#">Войти</a></p>
         <input type="text" placeholder="Моя компания" id="company" name="company" required>
         
-            <div>
-                <label class="name_and_family"></label>
-                <input type="text" placeholder="Имя" id="name" name="name" required>
-                <input type="family" placeholder="Фамилия" id="family" name="family" required>
+            <div class="informacion">
+                <div class="name_family">
+                    <label for="name"></label>
+                    <input type="text" placeholder="Имя" id="name" name="name" required>
+
+                    <label for="family"></label>
+                    <input type="family" placeholder="Фамилия" id="family" name="family" required>
+                </div>
+            
+                <label for="email"></label>
+                <input type="email" placeholder="E-mail" id="email" name="email" required>
             </div>
             
-            <input type="email" placeholder="E-mail" id="email" name="email" required>
-            
             <button>Зарегистрироваться</button>
-            <div>
+            <div class="agree_lable">
                 <input type="checkbox" id="agree" name="agree" required>
                 <label class="agree" for="agree">Я прочитал и принимаю <a href="#">Условия использования</a></label>
             </div>        
