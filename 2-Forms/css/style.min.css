@@ -14,6 +14,10 @@ body {
   margin: 225px 429px 226px 429px;
 }
 
+a {
+  color: rgb(8, 159, 224);
+}
+
 h1 {
   display: inline-block;
   color: #333333;
