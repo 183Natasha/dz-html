@@ -2,61 +2,130 @@
     font-family: 'Roboto';
     font-size: 16px;
     font-weight: 400;
-    color: #FFFFFF;  
-
+    color: #FFFFFF; 
 } 
 
 body{
-    background: 
-    linear-gradient(#374151 100%, #111827 100%, #121928 81% ), 
+    background: linear-gradient(#374151 100%, #111827 100%, #121928 81% );
+    width: 1440px;
+    height: 1516px;
 }
 
-label {
-    color: rgba(255, 255, 255, 0.6);
-    }
+.my_blog{
+    font-size: 18px;
+}
 
-.B{
+nav{
+    margin-top: 75px;
+    margin-left: 192px;
+    margin-bottom: 40px;
+    
+}
+
+#query{
+    margin-top: 71px;
+}
+
+.logo {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    color:#FFFFFF;
     background-color: #4B5563;
+    text-align: center;
+    border-radius: 3px;
 }
 
 #query{
     background-color: rgba(31, 41, 55, 0.6);
 }
 
-h6 {
-    font-size: 14px;
+
+.toUpperCase, .day_time, .datetime{
     color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    margin-top: 40px;
+    text-align: center;
 }
 
 h1{
     font-size: 24px;
     line-height: 38px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.autor{
+    display: inline-block;
+    margin-left: 706px;
+}
+
+.foto{
+    width: 50px;
+    height: 50px;
+    left: 640px;
+    border-radius: 25px;
+    margin-top: 15px;
+}
+
+.tele{
+    border-radius: 5px;
+    width: 896px;
+    height: 594px;
+    margin-left: 272px;
+    margin-right: 272px;
+    margin-top: 14px;
 }
 
 .name{
-    font-size: 14px;
     line-height: 28px;
+    margin: 0;
 }
 
 .prof{
     color: rgba(255, 255, 255, 0.6);
     font-size: 14px;
     line-height: 28px;
+    margin-bottom: 14px;
+    margin-top: 0;
 }
 
-p{
+article p{
     font-size: 16px;
     line-height: 30px; 
+    margin-left: 367px;
+    margin-right: 365px;
 }
+
 
 .p_top{
+    display: inline-block;
     font-size: 20px;
     line-height: 32px;
+    width: 708px;
+    margin-top: 69px;
+    margin-bottom: 25px;
 }
 
+.p_2{
+    display: inline-block;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.p_3{
+    display: inline-block;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
 
 
 
 footer{
+    display: inline-block;
     color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+    margin-bottom: 77px;
+    margin-top: 50px;
+    margin-left: 608px;
 }
