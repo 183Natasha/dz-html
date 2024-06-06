@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+}
+
 body {
   background: linear-gradient(0deg, #F39494, #F39494), linear-gradient(243.43deg, #FFA5A5 32.96%, rgba(255, 255, 255, 0) 82.03%), linear-gradient(243.18deg, #FDC5C5 25.45%, rgba(242, 152, 222, 0) 100%);
   width: 1440px;
@@ -11,7 +15,7 @@ body {
   border-radius: 10px;
   width: 582px;
   height: 573px;
-  margin: 225px 429px 226px 429px;
+  margin: 225px 0 226px 0;
 }
 
 a {
@@ -26,39 +30,30 @@ h1 {
   width: 383px;
   height: 54px;
   margin-top: 72px;
-  margin-left: 74px;
-  margin-right: 125px;
-  margin-bottom: 0;
   text-align: center;
 }
 
 .entrada {
-  margin-top: 0;
-  margin-bottom: 36px;
-  margin-left: 154px;
-  margin-right: 191px;
-  text-align: center;
+  margin-bottom: 47px;
 }
 
 #company {
-  width: 394px;
-  height: 44px;
+  width: 233px;
+  height: 26px;
   border: 1px solid #F5F5F5;
   border-radius: 5px;
   color: #333333;
-  margin-top: 11px;
-  margin-left: 74px;
-  margin-right: 114px;
-  margin-bottom: 11px;
-  padding-left: 11px;
+  margin-bottom: 21px;
+  padding: 9px 150px 9px 11px;
   font-size: 16px;
   font-weight: 600;
-  line-height: 22px;
+  line-height: 21px;
   text-align: left;
 }
 
 .informacion input {
-  height: 44px;
+  width: 151px;
+  height: 26px;
   font-style: italic;
   font-size: 16px;
   font-weight: 400;
@@ -66,15 +61,8 @@ h1 {
   text-align: left;
   border: 1px solid #FFFFFF;
   background-color: #F5F5F5;
-  padding-left: 11px;
-  margin-top: 11px;
-  margin-bottom: 11px;
-  margin-left: 74px;
-  margin-right: 114px;
-}
-
-.name_family {
-  width: 197px;
+  padding: 9px 35px 9px 11px;
+  margin-bottom: 22px;
 }
 
 #name {
@@ -86,8 +74,8 @@ h1 {
 }
 
 #email {
-  width: 394px;
   border-radius: 5px;
+  padding: 9px 232px 9px 11px;
 }
 
 button {
@@ -97,19 +85,15 @@ button {
   border: none;
   width: 394px;
   height: 44px;
-  margin-left: 74px;
-  margin-right: 114px;
-  margin-top: 11px;
-  margin-bottom: 11px;
+  margin-bottom: 22px;
   text-align: center;
+  padding: 9px 102px 9px 102px;
 }
 
 .agree_lable {
   display: inline-block;
   width: 371px;
   height: 19px;
-  margin-top: 11px;
-  margin-right: 142px;
-  margin-left: 69px;
   font-size: 14px;
+  margin-bottom: 91px;
 }
