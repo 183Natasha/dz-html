@@ -3,7 +3,9 @@
     font-size: 16px;
     font-weight: 400;
     color: #FFFFFF; 
-} 
+    margin: 0;
+}
+
 
 body{
     background: linear-gradient(#374151 100%, #111827 100%, #121928 81% );
@@ -15,25 +17,37 @@ body{
     font-size: 18px;
 }
 
-nav{
-    margin-top: 75px;
-    margin-left: 192px;
-    margin-bottom: 40px;
-    
+nav ul, a{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
+
+nav{
+    padding: 80px 173px;
+    margin-bottom: 80px;
+}
+
 
 #query{
     margin-top: 71px;
+    border-radius: 100px;
+    padding-left: 10px;
+}
+
+.search{
+    width: 14px;
+    height: 14px;
 }
 
 .logo {
     display: inline-block;
-    width: 35px;
-    height: 35px;
     color:#FFFFFF;
     background-color: #4B5563;
-    text-align: center;
     border-radius: 3px;
+    padding: 12px 13px 12px 13px;
+    
 }
 
 #query{
@@ -44,20 +58,20 @@ nav{
 .toUpperCase, .day_time, .datetime{
     color: rgba(255, 255, 255, 0.6);
     font-size: 14px;
-    margin-top: 40px;
     text-align: center;
+    margin-bottom: 14px;
 }
 
 h1{
     font-size: 24px;
     line-height: 38px;
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 
 .autor{
     display: inline-block;
-    margin-left: 706px;
+    margin-bottom: 0;
 }
 
 .foto{
@@ -65,36 +79,29 @@ h1{
     height: 50px;
     left: 640px;
     border-radius: 25px;
-    margin-top: 15px;
 }
 
 .tele{
     border-radius: 5px;
     width: 896px;
     height: 594px;
-    margin-left: 272px;
-    margin-right: 272px;
-    margin-top: 14px;
+    margin-bottom: 69px;
 }
 
 .name{
     line-height: 28px;
-    margin: 0;
 }
 
 .prof{
     color: rgba(255, 255, 255, 0.6);
     font-size: 14px;
     line-height: 28px;
-    margin-bottom: 14px;
-    margin-top: 0;
+    margin-bottom: 28px;
 }
 
 article p{
     font-size: 16px;
     line-height: 30px; 
-    margin-left: 367px;
-    margin-right: 365px;
 }
 
 
@@ -102,21 +109,17 @@ article p{
     display: inline-block;
     font-size: 20px;
     line-height: 32px;
-    width: 708px;
-    margin-top: 69px;
-    margin-bottom: 25px;
+    margin-bottom: 50px;
 }
 
 .p_2{
     display: inline-block;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-bottom: 50px;
 }
 
 .p_3{
     display: inline-block;
-    margin-top: 25px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 
@@ -124,8 +127,5 @@ article p{
 footer{
     display: inline-block;
     color: rgba(255, 255, 255, 0.6);
-    text-align: center;
     margin-bottom: 77px;
-    margin-top: 50px;
-    margin-left: 608px;
 }
