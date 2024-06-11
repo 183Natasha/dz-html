@@ -1,0 +1,131 @@
+*{
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF; 
+    margin: 0;
+}
+
+
+body{
+    background: linear-gradient(#374151 100%, #111827 100%, #121928 81% );
+    width: 1440px;
+    height: 1516px;
+}
+
+.my_blog{
+    font-size: 18px;
+}
+
+nav ul, a{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    padding: 80px 173px;
+    margin-bottom: 80px;
+}
+
+
+#query{
+    margin-top: 71px;
+    border-radius: 100px;
+    padding-left: 10px;
+}
+
+.search{
+    width: 14px;
+    height: 14px;
+}
+
+.logo {
+    display: inline-block;
+    color:#FFFFFF;
+    background-color: #4B5563;
+    border-radius: 3px;
+    padding: 12px 13px 12px 13px;
+    
+}
+
+#query{
+    background-color: rgba(31, 41, 55, 0.6);
+}
+
+
+.toUpperCase, .day_time, .datetime{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+h1{
+    font-size: 24px;
+    line-height: 38px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.autor{
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.foto{
+    width: 50px;
+    height: 50px;
+    left: 640px;
+    border-radius: 25px;
+}
+
+.tele{
+    border-radius: 5px;
+    width: 896px;
+    height: 594px;
+    margin-bottom: 69px;
+}
+
+.name{
+    line-height: 28px;
+}
+
+.prof{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    line-height: 28px;
+    margin-bottom: 28px;
+}
+
+article p{
+    font-size: 16px;
+    line-height: 30px; 
+}
+
+
+.p_top{
+    display: inline-block;
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 50px;
+}
+
+.p_2{
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+.p_3{
+    display: inline-block;
+    margin-bottom: 100px;
+}
+
+
+
+footer{
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 77px;
+}
