@@ -8,32 +8,42 @@
 
 <body>
     <header>
-        <nav>
-            <a class="my_blog" href="#"><span class="logo">В</span>      Мой блог</a>
-            <ul>
-                <li><a href="#">HTML и CSSБ</a></li>
-                <li><a href="#">Frontend</a></li>
-                <li><a href="#">Backend</a></li>
-            </ul>
-        </nav>
-    <form action="/" method="GET">
-        <label for="query"><img src="img/search.svg"></img></label>
-        <input type="query" id="query" name="query" placeholder="Поиск..." >
-        
-    </form>
+        <div class="header">
+            <nav>
+                <div class="start">
+                    <span class="logo">В</span>
+                    <a class="my_blog" href="#">Мой блог</a>
+                </div>
+                <ul>
+                    <li><a href="#">HTML и CSSБ</a></li>
+                    <li><a href="#">Frontend</a></li>
+                    <li><a href="#">Backend</a></li>
+                </ul>
+            </nav>
+            <form action="/" method="GET">
+                <label for="query"><img class="search" src="img/search.svg"></img></label>
+                <input type="query" id="query" name="query" placeholder="Поиск..." >
+            
+            </form>
+        </div>
     </header>
 
 <main>
     <section>
         <p class="day_time"> <span class="toUpperCase">FRONTEND</span>&bull;<datetime class="datetime">12 мая 2024</datetime> </p>
         
-         <h1>Теория цвета - Как цвет влияет на поведение потребителей</h1>
+        <h1>Теория цвета - Как цвет влияет на поведение потребителей</h1>
 
     <div class="autor">
-        <img class="foto" src="https://s3-alpha-sig.figma.com/img/56d2/936d/debdc3f275a19554e34f56b7ae22bd8b?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KSqGOutpYwBzGaWoeFOeaLOBk~SvA-rCUUsGECMi1e8RnJRSL0C7MiFdXg9aejAaZ-JXcMClRQYDRd8BmKWQhM2-U8CeJjrrjh9ug~Ne~~y3JgP9CPbTaM9HP34JML43K~bll9PTUoIHCTKEWLelIlhJA27U14P9d6W4qwnwsq2ARZDIR-EF2ztxo-zkXwNOZatro0mk~YrECXNAQvFdliAQ4p7GKz1Hyez9RmjWNNbA6VWqtwR6NJbJqe3zR7txtQhr1Lbu0NDFhN7d~iDjWMkb7f9Gs9ZOp7bLkn6uvGDiMFL4jKwDHTA2tjh6FrtD~B~uo4WgkgaVqU6yTHf4MQ__" 
+        <div>
+            <img class="foto" src="https://s3-alpha-sig.figma.com/img/56d2/936d/debdc3f275a19554e34f56b7ae22bd8b?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KSqGOutpYwBzGaWoeFOeaLOBk~SvA-rCUUsGECMi1e8RnJRSL0C7MiFdXg9aejAaZ-JXcMClRQYDRd8BmKWQhM2-U8CeJjrrjh9ug~Ne~~y3JgP9CPbTaM9HP34JML43K~bll9PTUoIHCTKEWLelIlhJA27U14P9d6W4qwnwsq2ARZDIR-EF2ztxo-zkXwNOZatro0mk~YrECXNAQvFdliAQ4p7GKz1Hyez9RmjWNNbA6VWqtwR6NJbJqe3zR7txtQhr1Lbu0NDFhN7d~iDjWMkb7f9Gs9ZOp7bLkn6uvGDiMFL4jKwDHTA2tjh6FrtD~B~uo4WgkgaVqU6yTHf4MQ__" 
         alt="Фотография разработчицы">
-        <p class="name">Наталья Васильева</p>
+        </div>
+        <div>
+            <p class="name">Наталья Васильева</p>
         <p class="prof">Разработчик</p>
+        </div>
+                
     </div>
 
     <article>

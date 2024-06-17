@@ -12,6 +12,18 @@ body {
   height: 1516px;
 }
 
+.header {
+  display: flex;
+  gap: 340px;
+  align-items: baseline;
+}
+
+.start {
+  display: flex;
+  gap: 20px;
+  align-items: baseline;
+}
+
 .my_blog {
   font-size: 18px;
 }
@@ -21,20 +33,31 @@ nav ul, a {
   list-style-type: none;
   padding: 0;
   margin: 0;
+  display: flex;
+  gap: 20px;
 }
 
 nav {
   padding: 80px 173px;
   margin-bottom: 80px;
+  display: flex;
+  align-items: baseline;
+  gap: 20px;
 }
 
 #query {
+  width: 200px;
+  height: 19px;
   margin-top: 71px;
   border-radius: 100px;
-  padding-left: 10px;
+  padding: 9px 28px 12px 49px;
+  color: rgb(255, 255, 255);
 }
 
 .search {
+  position: absolute;
+  padding: 14px 192px 12px 18px;
+  margin-top: 71px;
   width: 14px;
   height: 14px;
 }
@@ -63,11 +86,14 @@ h1 {
   line-height: 38px;
   text-align: center;
   margin-bottom: 30px;
+  align-items: center;
 }
 
 .autor {
-  display: inline-block;
-  margin-bottom: 0;
+  display: flex;
+  margin: 0 auto;
+  gap: 16px;
+  justify-content: center;
 }
 
 .foto {
@@ -82,6 +108,8 @@ h1 {
   width: 896px;
   height: 594px;
   margin-bottom: 69px;
+  margin-left: 272px;
+  margin-right: 272px;
 }
 
 .name {
@@ -98,6 +126,8 @@ h1 {
 article p {
   font-size: 16px;
   line-height: 30px;
+  margin-left: 360px;
+  margin-right: 360px;
 }
 
 .p_top {
@@ -119,6 +149,9 @@ article p {
 
 footer {
   display: inline-block;
+  width: 226px;
+  height: 28px;
   color: rgba(255, 255, 255, 0.6);
-  margin-bottom: 77px;
+  margin: 0 660px;
+  padding: 47px 40px;
 }
