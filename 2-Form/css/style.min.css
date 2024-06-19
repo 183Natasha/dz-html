@@ -61,6 +61,17 @@ h1 {
   text-align: left;
 }
 
+#company:focus,
+#name:focus,
+#family:focus,
+#email:focus {
+  outline: none;
+}
+
+.informacion:focus {
+  outline: none;
+}
+
 .informacion input {
   width: 151px;
   height: 26px;
