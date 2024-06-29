@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Finio</title>
@@ -8,45 +9,126 @@
     <link rel="stylesheet" href="./styles/global.css" />
     <link rel="stylesheet" href="./styles/header.css" />
     <link rel="stylesheet" href="./styles/page.css" />
+    <link rel="stylesheet" href="./styles/blog.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <header class="header">
-      <div class="header__wrapper">
-        <div class="header__logo">finio</div>
-        <nav>
-          <ul class="menu">
-            <li class="menu__item"><a href="#">Возможности</a></li>
-            <li class="menu__item"><a href="#">Тарифы</a></li>
-            <li class="menu__item menu__item_active"><a href="#">Отзывы</a></li>
-            <li class="menu__item"><a href="#">Поддержка клиентов</a></li>
-          </ul>
-        </nav>
-        <button
-          class="header__loging"
-          href="#"
-          aria-label="Вход в личный кабинет"
-        >
-          Личный кабинет
-        </button>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet" />
+</head>
 
-        <button class="header__mobile-menu-button" 
-                aria-expanded="false"
-                aria-haspopup="true">
-                <img src="./img/menu.svg" alt="Мобильное меню">
+<body>
+    <header class="header">
+        <div class="header__wrapper">
+            <div class="header__logo">finio</div>
+            <nav>
+                <ul class="menu">
+                    <li class="menu__item"><a href="#">Возможности</a></li>
+                    <li class="menu__item"><a href="#">Тарифы</a></li>
+                    <li class="menu__item menu__item_active"><a href="#">Отзывы</a></li>
+                    <li class="menu__item"><a href="#">Поддержка клиентов</a></li>
+                </ul>
+            </nav>
+            <button class="header__loging" href="#" aria-label="Вход в личный кабинет">
+                Личный кабинет
             </button>
 
-      </div>
+            <button class="header__mobile-menu-button" aria-expanded="false" aria-haspopup="true">
+                <img src="./img/menu.svg" alt="Мобильное меню" />
+            </button>
+        </div>
     </header>
-    <section class="hero">
-        <div>Простой финансовый учёт для продавцов на маркетплейсах</div>
+    <section class="body-padding">
+        <div class="body-padding-row">
+            <div class="hero">
+                <div class="hero__text">
+                    <div class="hero__text-top">
+                        Простой финансовый учёт для продавцов на маркетплейсах
+                    </div>
+
+                    <div class="hero__text-bottom">
+                        Попробовать&nbsp14&nbspдней&nbspбесплатно
+                    </div>
+                    <img class="logos-super" src="./img/logos-super.svg" alt="Логотипы маркетплейсов" />
+                </div>
+                <img class="netbook" src="./img/netbook.svg" alt="Открытый ноутбук" />
+            </div>
+            <div class="analis">
+                <div class="analis__card">
+                    <img class="analis__card-element" src="./img/analiz.svg" alt="Значок диаграммы" />
+                    <div class="analis__card-text">
+                        Анализ прибыли по <br />
+                        товарам и брендам
+                    </div>
+                </div>
+                <div class="analis__card">
+                    <img class="analis__card-element" src="./img/auto.svg" alt="Значок Wildberries" />
+                    <div class="analis__card-text">
+                        Автоматический учёт <br />доходов Wildberries
+                    </div>
+                </div>
+                <div class="analis__card">
+                    <img class="analis__card-element" src="./img/rub.svg" alt="Значок рубля" />
+                    <div class="analis__card-text">
+                        От 990 рублей в месяц <br />с полным функционалом
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="blog">
+            <div class="blog__text">
+                <h2 class="blog__text-top">Предотвращайте кассовые разрывы</h2>
+                <p class="blog__text-down">
+                    Заранее планируйте предстоящие платежи и <br />поступления средств.
+                    Тем самым, вы избежите <br />неприятной ситуации с нехваткой средств
+                    на счетах
+                </p>
+            </div>
+            <img class="blog__img" src="./img/balance.png" alt="" />
+        </div>
+
+        <div class="blog">
+            <img class="blog__img" src="./img/diagram.png" alt="" />
+            <div class="blog__text">
+                <h2 class="blog__text-top">
+                    Отчёты о прибыли и <br />убытках всегда под рукой
+                </h2>
+                <p class="blog__text-down">
+                    Получите полную информацию о состоянии вашего бизнеса,<br />
+                    включающую все необходимые показатели для принятия <br />
+                    правильных решений
+                </p>
+            </div>
+        </div>
+
+        <div class="blog">
+            <div class="blog__text">
+                <h2 class="blog__text-top">Какие товары приносят <br>прибыль</h2>
+                <p class="blog__text-down">
+                    Находите точки роста, делайте упор на рентабельные<br> товары и увеличивайте свой доход
+                </p>
+            </div>
+            <img class="blog__img" src="./img/diagram-2.png" alt="" />
+        </div>
+
+        <div class="blog blog__tabl">
+            <div class="blog blog__tabl-12">
+                <img class="tabl tabl-1" src="./img/tabl-1.png" alt="" />
+                <img class="tabl tabl-2" src="./img/tabl-2.png" alt="" />
+            </div>            
+            <div class="blog__text">
+                <h2 class="blog__text-top">
+                    Сокращайте лишние <br> расходы
+                </h2>
+                <p class="blog__text-down">
+                    Анализируйте расходы, убирать ненужные издержки и <br>находите возможности повышать прибыльность бизнеса
+                </p>
+            </div>
+        </div>
+
     </section>
-    <footer></footer>
-  </body>
+    <footer>
+        <div></div>
+    </footer>
+</body>
+
 </html>

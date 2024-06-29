@@ -16,50 +16,25 @@
     --border-34: 34px;
 }
 
+/* html{
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -text-rendering: optimizeLegibility;
+} */
+
 *{
     box-sizing: border-box;
 }
 
 body{
-    background: var(--color-first) ; 
-    margin: 0 264px;
+    background: var(--color-second) ; 
+    margin: 0;
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400;
 }
 
-
-@media (max-width: 1800px) {
-    body{
-        margin: 0 200px;
-    }
-}
-
-@media (max-width: 1500px) {
-    body{
-        margin: 0 80px;
-    }
-}
-
-/* @media (max-width: 1200px) {
-    body{
-        margin: 0 80px;
-    }
-} */
-
-@media (max-width: 1200px) {
-    body{
-        margin: 0 24px;
-    }
-}
-/* 
-@media (max-width: 480px) {
-    body{
-        margin: 0 24px;
-    }
-} */
-
-
 a{
     text-decoration: none;
 }
+
