@@ -1,17 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Finio</title>
-    <link rel="stylesheet" href="./styles/footer.css">
-    <link rel="stylesheet" href="./styles/global.css">
-    <link rel="stylesheet" href="./styles/header.css">
-    <link rel="stylesheet" href="./styles/page.css">
+    <link rel="stylesheet" href="./styles/footer.css" />
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/page.css" />
 
-</head>
-<body>
-    <header>kk</header>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__wrapper">
+        <div class="header__logo">finio</div>
+        <nav>
+          <ul class="menu">
+            <li class="menu__item"><a href="#">Возможности</a></li>
+            <li class="menu__item"><a href="#">Тарифы</a></li>
+            <li class="menu__item menu__item_active"><a href="#">Отзывы</a></li>
+            <li class="menu__item"><a href="#">Поддержка клиентов</a></li>
+          </ul>
+        </nav>
+        <button
+          class="header__loging"
+          href="#"
+          aria-label="Вход в личный кабинет"
+        >
+          Личный кабинет
+        </button>
+
+        <button class="header__mobile-menu-button" 
+                aria-expanded="false"
+                aria-haspopup="true">
+                <img src="./img/menu.svg" alt="Мобильное меню">
+            </button>
+
+      </div>
+    </header>
+    <section class="hero">
+        <div>Простой финансовый учёт для продавцов на маркетплейсах</div>
+    </section>
     <footer></footer>
-</body>
+  </body>
 </html>

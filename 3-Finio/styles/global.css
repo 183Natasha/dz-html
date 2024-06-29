@@ -1,13 +1,19 @@
 :root{
     --color-first: rgb(53, 126, 254);
     --color-second: rgb(255, 255, 255);
+    --color-bg-footer: rgb(26, 29, 37);
+
     --color-text-opacity: rgba(255, 255, 255, 0.8);
+    --color-line: rgba(255, 255, 255, 0.16);
     --color-text-black: rgb(0, 0, 0);
     --color-text-gray: rgb(78, 93, 124);
     --color-text-gray-opacity: rgba(78, 93, 124, 0.5);
+
     --color-num: rgb(255, 199, 54);
 
+    --layout-width: 1920px;
 
+    --border-34: 34px;
 }
 
 *{
@@ -16,7 +22,44 @@
 
 body{
     background: var(--color-first) ; 
-    margin: 0;
+    margin: 0 264px;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400;
+}
+
+
+@media (max-width: 1800px) {
+    body{
+        margin: 0 200px;
+    }
+}
+
+@media (max-width: 1500px) {
+    body{
+        margin: 0 80px;
+    }
+}
+
+/* @media (max-width: 1200px) {
+    body{
+        margin: 0 80px;
+    }
+} */
+
+@media (max-width: 1200px) {
+    body{
+        margin: 0 24px;
+    }
+}
+/* 
+@media (max-width: 480px) {
+    body{
+        margin: 0 24px;
+    }
+} */
+
+
+a{
+    text-decoration: none;
 }
