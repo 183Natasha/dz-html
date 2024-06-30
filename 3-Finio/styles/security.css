@@ -1,0 +1,40 @@
+.security-padding{
+    max-width: var(--layout-width);
+    margin: 0 auto;
+    padding: 0 264px ;
+    background: var(--color-second);
+}
+
+.security{
+    display: flex;
+    justify-content: first baseline;
+    gap: 78px;
+    padding: 120px 0 80px;
+    border-bottom: 1px solid red;  
+}
+
+.security__card{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.security__card-top{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 120%;
+    color: var(--color-text-black);
+}
+
+.security__card-down{
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 140%;
+    color: var(--color-text-gray-opacity);
+}
+
+.security__card-img{
+    width: 80px;
+    height: 86px;
+}
+
