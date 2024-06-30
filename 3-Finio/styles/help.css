@@ -1,0 +1,47 @@
+.help-padding{
+    max-width: var(--layout-width);
+    margin: 0 auto;
+    padding: 0 264px ;
+    background: var(--color-first);
+}
+
+.help{
+    display: flex;
+    justify-content: space-between;
+    gap: 74px;
+}
+
+.help__right-top{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 120%;
+    color: var(--color-second);
+}
+
+
+.help__right-down{
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 140%;
+    color: var(--color-text-opacity);
+}
+
+.help__right-logo{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    /* padding-bottom: 16px ; */
+}
+
+.logo{
+    width: 32px;
+    height: 32px;
+}
+
+.logo-mail{
+    color: var(--color-text-opacity);
+}
+
+.logo-mail:hover{
+    color: var(--color-second);
+}

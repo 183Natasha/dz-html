@@ -1,0 +1,32 @@
+
+.mobile-padding{
+    max-width: var(--layout-width);
+    margin: 0 auto;
+    padding: 0 264px ;
+    background: var(--color-second);
+}
+
+.mobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0 121px;
+    border-bottom: 1px solid red;  
+}
+
+.mobile-top{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 120%;
+    color: var(--color-text-black);
+    margin: 0 0 24px 0;
+}
+
+.mobile-down{
+    margin: 0 0 40px 0;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 140%;
+    color: var(--color-text-gray-opacity);
+}
