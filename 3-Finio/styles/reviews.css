@@ -1,0 +1,37 @@
+.reviews-padding{
+    max-width: var(--layout-width);
+    margin: 0 auto;
+    padding: 0 264px ;
+    background: var(--color-second);
+}
+
+.reviews{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.reviews-top{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 120%;
+    color: var(--color-text-black);
+    margin: 0 0 40px 0;
+}
+
+.arrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 950px;
+    position: relative;
+    top: -300px;
+}
+
+.arrow-40{
+    width: 84px;
+    height: 84px;
+    cursor: pointer;
+}

@@ -1,0 +1,36 @@
+.tarif-padding{
+    max-width: var(--layout-width);
+    margin: 0 auto;
+    padding: 0 264px ;
+    background: var(--color-second);
+}
+
+.tarif{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0 80px;
+    /* border-bottom: 1px solid red;   */
+}
+
+.tarif-top{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 120%;
+    color: var(--color-text-black);
+    margin: 0 0 24px 0;
+
+}
+
+.tarif-down{
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 140%;
+    color: var(--color-text-gray-opacity);
+}
+
+.tarif__card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
