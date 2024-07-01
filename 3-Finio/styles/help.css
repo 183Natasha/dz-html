@@ -12,10 +12,10 @@
 }
 
 .help__right-top{
+    color: var(--color-second);
     font-size: 40px;
     font-weight: 600;
     line-height: 120%;
-    color: var(--color-second);
 }
 
 
@@ -44,4 +44,37 @@
 
 .logo-mail:hover{
     color: var(--color-second);
+}
+
+
+@media (max-width: 1800px) {
+    
+}
+
+@media (max-width: 1500px) {
+    
+}
+
+@media (max-width: 1200px) {
+    
+}
+
+@media (max-width: 960px) {
+    
+}
+
+@media (max-width: 720px) {
+    .help__left{
+        width: 327px;
+        height: 279px;
+    }
+    .help{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        gap: 74px;
+    }
+    .help-padding{
+        padding: 48px 24px 0 24px; 
+    }
 }

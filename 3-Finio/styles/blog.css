@@ -1,75 +1,69 @@
-/* Time */
 
-.time-padding{
-    max-width: var(--layout-width);
-    margin: 0 auto;
-    padding: 0 264px ;
-    background: var(--color-first);
-}
-
-
-.time__img{
+/*blog*/
+.blog{
     display: flex;
+    justify-content: space-between;
+    padding: 40px 0 38px 0;
+    border-bottom: 1px solid red;  
+}
+.blog__text{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-}
-
-.time__img-slide{
-    width: 1156px;
-}
-
-.time__top{
-    font-size: 48px;
-    font-weight: 600;
-    line-height: 120%;
-    color: var(--color-second);
-    text-align: center;
-    padding: 120px 0 24px;
+    gap: 24px;
     margin: 0;
 }
 
-.time__down{
-    /* width: 1156px; */
+.blog__text-top{
+    margin: 0;
+}
+
+.blog__text-down{
     font-size: 18px;
     font-weight: 500;
     line-height: 140%;
-    color: var(--color-second);
-    text-align: center;
-    padding-bottom: 40px;
+    color: var(--color-text-gray-opacity);
+    margin: 0;
 }
 
-.time__tex-bottom{
-    margin: 0 auto 65px;
+.blog__img{
+    width: 729px;
+    height: 445.5px;
 }
 
-
-.time__tabl{
+.blog__tabl{
     display: flex;
     justify-content: center;
-    padding-bottom: 120px;
+    align-items: center;
+    gap: 205px;
 }
 
-.time__tabl-h3{
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 120%;
-    color: var(--color-second);
+.blog__tabl-12{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 65px;
+    border: none;
 }
 
-
-
-.time__item{
-    color: var(--color-text-opacity);
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 140%;
-    /* padding-bottom: 24px; */
-    padding-left: 8px;
+.tabl-2{
+    position: absolute;
+    left: 450px;
+    width: 450px;
+    height: 120px;
 }
 
-.time__tabl-left li::marker {
-	content: url("../img/exclamation-circle.svg");
+.tabl-1{
+    position: relative;
+    left: -50px; /* Сдвиг слоя влево */
+    /*top: 50px; */
 }
 
-.time__tabl-right li::marker {
-	content: url("../img/check-circle.svg");
-}
+/* .tabl-2{
+    
+    width: 450px;
+    height: 98px;
+    position: relative;
+    left: -200px; /* Сдвиг слоя влево */
+    /* top: 100px; */
+/* */

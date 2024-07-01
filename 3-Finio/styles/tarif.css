@@ -15,10 +15,6 @@
 }
 
 .tarif-top{
-    font-size: 48px;
-    font-weight: 600;
-    line-height: 120%;
-    color: var(--color-text-black);
     margin: 0 0 24px 0;
 
 }
@@ -31,6 +27,179 @@
 }
 
 .tarif__card{
+    border-radius: 8px;
+    /* shadow 16% */
+    border: none;
+    box-shadow: 0px 0px 32px 0px rgba(78, 93, 124, 0.16);
+    background: rgb(255, 255, 255);
+    text-align: start;
+    padding: 48px 40px;
+    /* width: 369px;
+    height: 507px; */
+} 
+
+.card-3{
+    background-color: var(--color-first);
+    color: var(--color-second);
+}
+
+.tarif-button{
+    background: var(--color-first);
+    border-radius: 47px;
+    border: none;
+    color: var(--color-second);
+    font-size: 17px;
+    font-weight: 800;
+    line-height: 140%;
+    padding: 12px 63px 12px 63px;
+    cursor: pointer;
+}
+
+.tarif-button-3{
+    background: var(--color-second);
+    color: var(--color-first);
+}
+
+.tarif-button_center{
+    display: flex;
+    justify-content: center;
+}
+
+
+.tarif__card-about{
+    margin-bottom: 24px;
+}
+
+.card-about{
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    /* margin-right: 50px; */
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 140%;
+    color: var(--color-text-gray);
+    padding: 16px 0 16px 0;
+    border-bottom: 1px solid red;
+}
+
+.card-about-3{
+    color: var(--color-second);
+}
+
+.card-about-rub-1{
+    width: 115px;
+    text-align: start;
+    
+}
+
+.card-about-rub-2,
+.card-about-rub-3{
+    width: 115px;
+    text-align: center;
+    
+}
+
+.tarif__card-month{
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 120%;
+    margin-bottom: 16px;
+}
+
+.tarif__card-text{
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 140%;
+    color: var(--color-text-gray-opacity);
+    margin-bottom: 34px;
+}
+
+.tarif__card-text-3{
+    margin-bottom: 10px;
+    color: var(--color-text-opacity);
+}
+
+.tarif__card-plus{
+    display: inline-block;
+    margin-bottom: 16px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 140%;
+    color: var(--color-second);
+    padding: 4px 16px 4px 16px;
+    background-color: var(--color-green);
+    border-radius: 8px;
+}
+
+.tarif__card-plus-trans{
+    color: transparent;
+    background-color: transparent;
+}
+
+.tarif__cards{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap:  24px;
+}
+
+.card-yellow{
+    display: inline;
+    background-color: var(--color-num);
+    color: var(--color-second);
+    border-radius:  8px;
+    padding: 8px 16px;
+
+}
+
+.card-yellow-1{
+    background-color: transparent;
+    color: var(--color-text-gray);
+    padding: 8px 0;
+}
+
+.bold{
+    font-weight: 800;
+}
+
+
+
+/* @media (max-width: 1800px) {
+    
+}
+
+@media (max-width: 1500px) {
+    
+}
+
+@media (max-width: 1200px) {
+    
+}
+
+@media (max-width: 960px) {
+    
+}
+
+@media (max-width: 720px) {
+    
+} */
+
+@media (max-width: 1800px) {
+    .tarif__cards{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap:  24px;
+    }
+    .tarif-padding{
+        padding: 48px 24px 64px 24px; 
+    }
+}
+
+
+@media (max-width: 720px) {
+    .tarif__cards{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap:  24px;
+    }
 }

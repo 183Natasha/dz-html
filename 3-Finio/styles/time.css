@@ -1,0 +1,72 @@
+/* Time */
+
+.time-padding{
+    max-width: var(--layout-width);
+    margin: 0 auto;
+    padding: 0 264px ;
+    background: var(--color-first);
+}
+
+
+.time__img{
+    display: flex;
+    justify-content: center;
+}
+
+.time__img-slide{
+    width: 1156px;
+}
+
+.time__top{
+    color: var(--color-second);
+    text-align: center;
+    padding: 120px 0 24px;
+    margin: 0;
+}
+
+.time__down{
+    /* width: 1156px; */
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 140%;
+    color: var(--color-second);
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.time__tex-bottom{
+    margin: 0 auto 65px;
+}
+
+
+.time__tabl{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 120px;
+}
+
+.time__tabl-h3{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 120%;
+    color: var(--color-second);
+}
+
+
+
+.time__item{
+    color: var(--color-text-opacity);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 140%;
+    /* padding-bottom: 24px; */
+    padding-left: 8px;
+}
+
+.time__tabl-left li::marker {
+	content: url("../img/exclamation-circle.svg");
+}
+
+.time__tabl-right li::marker {
+	content: url("../img/check-circle.svg");
+}

@@ -1,0 +1,20 @@
+/*Analis*/
+.analis{
+    display: flex;
+    flex-direction: row;
+    gap: 64px;
+    justify-content: space-between;
+}
+
+.analis__card{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.analis__card-text{
+    color: var(--color-text-black);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 120%;
+}

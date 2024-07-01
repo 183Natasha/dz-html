@@ -16,9 +16,6 @@
 }
 
 .mobile-top{
-    font-size: 48px;
-    font-weight: 600;
-    line-height: 120%;
     color: var(--color-text-black);
     margin: 0 0 24px 0;
 }
@@ -29,4 +26,36 @@
     font-weight: 500;
     line-height: 140%;
     color: var(--color-text-gray-opacity);
+}
+
+@media (max-width: 1800px) {
+    
+}
+
+@media (max-width: 1500px) {
+    
+}
+
+@media (max-width: 1200px) {
+    
+}
+
+@media (max-width: 960px) {
+    
+}
+
+@media (max-width: 720px) {
+    .mobile-img{
+        position:relative;
+        width: 677.7px;
+        height: 450px;
+        right: -170px;
+    }
+    .mobile-padding{
+        padding: 48px 24px 64px 24px; 
+    }
+    .mobile{
+        padding: 0;
+        border-bottom: 1px solid transparent; 
+    }
 }
