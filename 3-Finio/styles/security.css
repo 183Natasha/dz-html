@@ -1,7 +1,4 @@
 .security-padding{
-    max-width: var(--layout-width);
-    margin: 0 auto;
-    padding: 0 264px ;
     background: var(--color-second);
 }
 
@@ -37,4 +34,50 @@
     width: 80px;
     height: 86px;
 }
+
+@media (max-width: 1800px) {
+    
+}
+
+@media (max-width: 1500px) {
+    
+}
+
+@media (max-width: 1200px) {
+    
+}
+
+@media (max-width: 960px) {
+    
+}
+
+@media (max-width: 720px) {
+    .security{
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        margin: 0;
+        padding: 0 0 48px 0;
+    }
+    .security__card{
+        gap: 24px;
+        margin: 0;
+    }
+    .security__card-top{
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 120%;
+        color: var(--color-text-black);
+        margin: 0;
+    }
+    
+    .security__card-down{
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 140%;
+        color: var(--color-text-gray-opacity);
+        margin: 0;
+    }
+}
+
 

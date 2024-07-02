@@ -1,7 +1,4 @@
 .tarif-padding{
-    max-width: var(--layout-width);
-    margin: 0 auto;
-    padding: 0 264px ;
     background: var(--color-second);
 }
 
@@ -188,6 +185,17 @@
     .tarif__cards{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        gap:  24px;
+    }
+    .tarif-padding{
+        padding: 48px 150px 64px 150px; 
+    }
+}
+
+@media (max-width: 960px) {
+    .tarif__cards{
+        display: grid;
+        grid-template-columns: 1fr;
         gap:  24px;
     }
     .tarif-padding{

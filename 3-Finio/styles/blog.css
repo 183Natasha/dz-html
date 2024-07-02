@@ -67,3 +67,9 @@
     left: -200px; /* Сдвиг слоя влево */
     /* top: 100px; */
 /* */
+
+@media (max-width: 720px) {
+    .blog{
+        flex-direction: column;
+    }
+}

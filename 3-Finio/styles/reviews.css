@@ -1,7 +1,4 @@
 .reviews-padding{
-    max-width: var(--layout-width);
-    margin: 0 auto;
-    padding: 0 264px ;
     background: var(--color-second);
 }
 

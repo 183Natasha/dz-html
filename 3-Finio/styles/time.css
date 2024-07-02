@@ -1,9 +1,6 @@
 /* Time */
 
 .time-padding{
-    max-width: var(--layout-width);
-    margin: 0 auto;
-    padding: 0 264px ;
     background: var(--color-first);
 }
 
@@ -69,4 +66,34 @@
 
 .time__tabl-right li::marker {
 	content: url("../img/check-circle.svg");
+}
+
+
+@media (max-width: 1800px) {
+    
+}
+
+@media (max-width: 1500px) {
+    
+}
+
+@media (max-width: 1200px) {
+    
+}
+
+@media (max-width: 960px) {
+    
+}
+
+@media (max-width: 720px) {
+    .time__tabl{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 64px;
+    }
+    .time__img{
+        width: 328px;
+        height: 182px;
+        margin-bottom: 54.41px;
+    }
 }

@@ -1,6 +1,45 @@
+.padding-wrap{
+    max-width: var(--layout-width);
+    margin: 0 auto;
+    padding: 0 264px ;
+}
+
 .text-top{
     font-size: 48px;
     font-weight: 600;
     line-height: 120%;
     /* color: var(--color-text-black); */
+}
+
+
+@media (max-width: 1800px) {
+    
+}
+
+@media (max-width: 1500px) {
+    
+}
+
+@media (max-width: 1200px) {
+    
+}
+
+@media (max-width: 960px) {
+    
+}
+
+@media (max-width: 720px) {
+    .help__left{
+        width: 327px;
+        height: 279px;
+    }
+    .help{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        gap: 74px;
+    }
+    .padding-wrap{
+        padding: 48px 24px 0px 24px; 
+    }
 }

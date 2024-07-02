@@ -1,8 +1,5 @@
 
 .mobile-padding{
-    max-width: var(--layout-width);
-    margin: 0 auto;
-    padding: 0 264px ;
     background: var(--color-second);
 }
 
@@ -41,7 +38,9 @@
 }
 
 @media (max-width: 960px) {
-    
+    .mobile-padding{
+        padding: 48px 24px 64px 24px; 
+    }
 }
 
 @media (max-width: 720px) {
@@ -50,9 +49,6 @@
         width: 677.7px;
         height: 450px;
         right: -170px;
-    }
-    .mobile-padding{
-        padding: 48px 24px 64px 24px; 
     }
     .mobile{
         padding: 0;
