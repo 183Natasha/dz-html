@@ -31,9 +31,9 @@
     padding-bottom: 40px;
 }
 
-.time__tex-bottom{
-    margin: 0 auto 65px;
-}
+/* .time__tex-bottom{
+    margin: 0 auto 65pх;
+} */
 
 
 .time__tabl{
@@ -91,9 +91,14 @@
         flex-direction: column;
         padding-bottom: 64px;
     }
-    .time__img{
-        width: 328px;
-        height: 182px;
+    .time__img-slide{
+        width: 327px;
         margin-bottom: 54.41px;
+    }
+    .time__down{
+        text-align: start;
+    }
+    .time__top{
+        padding: 16px 0 24px;
     }
 }

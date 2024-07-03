@@ -4,6 +4,8 @@
     flex-direction: row;
     gap: 64px;
     justify-content: space-between;
+    position: absolute;
+    z-index: 0;
 }
 
 .analis__card{
@@ -17,4 +19,42 @@
     font-size: 24px;
     font-weight: 700;
     line-height: 120%;
+}
+
+
+
+
+@media (max-width: 1800px) {
+    
+}
+
+@media (max-width: 1500px) {
+    
+}
+
+@media (max-width: 1200px) {
+    
+}
+
+@media (max-width: 960px) {
+    
+}
+
+@media (max-width: 720px) {
+    .analis{
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        top: 650px;
+    }
+    .analis__card-text{
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 140%;
+        text-align: left;
+    }
+    .analis__card-element{
+        width: 48px;
+        height: 48px;
+    }
 }

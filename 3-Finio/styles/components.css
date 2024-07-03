@@ -12,6 +12,23 @@
 }
 
 
+.text-bottom{
+    width: 345px;
+    height: 48px;
+    font-size: 17px;
+    font-weight: 800;
+    line-height: 140%;
+    text-align: center;
+    color: var(--color-first);
+    background-color: var(--color-second);
+    padding: 12px 32px 12px 32px;
+    border-radius: var(--border-34);
+    margin-bottom: 40px;
+    
+    /* text-align: center; */
+}
+
+
 @media (max-width: 1800px) {
     
 }
@@ -41,5 +58,16 @@
     }
     .padding-wrap{
         padding: 48px 24px 0px 24px; 
+    }
+    .text-bottom{
+        width: 328px;
+        text-align: center;
+        padding: 12px 10px;
+        margin-bottom: 32px;
+    }
+    .text-top{
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 120%;
     }
 }
