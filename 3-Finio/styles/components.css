@@ -24,21 +24,34 @@
     padding: 12px 32px 12px 32px;
     border-radius: var(--border-34);
     margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
     
     /* text-align: center; */
 }
 
 
 @media (max-width: 1800px) {
-    
+    .padding-wrap{
+        padding: 0px 150px; 
+    }
 }
 
 @media (max-width: 1500px) {
-    
+    .padding-wrap{
+        padding: 0px 100px; 
+    }
 }
 
-@media (max-width: 1200px) {
-    
+@media (max-width: 1280px) {
+    .padding-wrap{
+        padding: 0px 50px; 
+    }
+    .text-top{
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 120%;
+    }
 }
 
 @media (max-width: 960px) {
@@ -65,9 +78,9 @@
         padding: 12px 10px;
         margin-bottom: 32px;
     }
-    .text-top{
-        font-size: 36px;
+    /* .text-top{
+        font-size: 32px;
         font-weight: 600;
         line-height: 120%;
-    }
+    } */
 }

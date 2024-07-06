@@ -64,28 +64,51 @@
             <div class="line"></div>
         </div>
     </section>
-    <section class="analis padding-wrap">        
+    <section class="analis padding-wrap">    
+        <div class="analis-line">
             <div class="analis__card">
                 <img class="analis__card-element" src="./img/analiz.svg" alt="Значок диаграммы" />
                 <div class="analis__card-text">
-                    Анализ прибыли по <br />
-                    товарам и брендам
+                    Анализ прибыли по <br> товарам и брендам
                 </div>
             </div>
             <div class="analis__card">
                 <img class="analis__card-element" src="./img/auto.svg" alt="Значок Wildberries" />
                 <div class="analis__card-text">
-                    Автоматический учёт <br />доходов Wildberries
+                    Автоматический учёт <br>доходов Wildberries
                 </div>
             </div>
             <div class="analis__card">
                 <img class="analis__card-element" src="./img/rub.svg" alt="Значок рубля" />
                 <div class="analis__card-text">
-                    От 990 рублей в месяц <br />с полным функционалом
+                    От 990 рублей в месяц <br>с полным функционалом
                 </div>
             </div>
+        </div>    
+
+        <div class="analis-line__2">
+            <div class="analis__card">
+                <img class="analis__card-element" src="./img/analiz.svg" alt="Значок диаграммы" />
+                <div class="analis__card-text">
+                    Анализ прибыли по товарам и брендам
+                </div>
+            </div>
+            <div class="analis__card">
+                <img class="analis__card-element" src="./img/auto.svg" alt="Значок Wildberries" />
+                <div class="analis__card-text">
+                    Автоматический учёт доходов Wildberries
+                </div>
+            </div>
+            <div class="analis__card">
+                <img class="analis__card-element" src="./img/rub.svg" alt="Значок рубля" />
+                <div class="analis__card-text">
+                    От 990 рублей в месяц с полным функционалом
+                </div>
+            </div>
+        </div>    
+            
     </section>
-    <section class="padding-wrap">
+    <section class="tabls padding-wrap">
         <div class="blog">
             <div class="blog__text">
                 <h2 class="blog__text-top-1 text-top">Предотвращайте кассовые разрывы</h2>
@@ -95,11 +118,11 @@
                     на счетах
                 </p>
             </div>
-            <img class="blog__img" src="./img/balance.png" alt="" />
+            <img class="blog__img blog__img-balance" src="./img/balance.png" alt="" />
         </div>
     
         <div class="blog">
-            <img class="blog__img" src="./img/diagram.png" alt="" />
+            <img class="blog__img blog__img-diagram" src="./img/diagram.png" alt="" />
             <div class="blog__text">
                 <h2 class="blog__text-top text-top">
                     Отчёты о прибыли и <br />убытках всегда под рукой
@@ -119,13 +142,14 @@
                     Находите точки роста, делайте упор на рентабельные<br> товары и увеличивайте свой доход
                 </p>
             </div>
-            <img class="blog__img" src="./img/diagram-2.png" alt="" />
+            <img class="blog__img blog__img-diagram-2" src="./img/diagram-2.png" alt="" />
         </div>
 
         <div class="blog blog__tabl">
-            <div class="blog blog__tabl-12">
-                <img class="tabl tabl-1" src="./img/tabl-1.png" alt="" />
-                <img class="tabl tabl-2" src="./img/tabl-2.png" alt="" />
+            <div class=" blog__tabl-12">
+                <!-- <img class="tabl tabl-1" src="./img/tabl-1.png" alt="" />
+                <img class="tabl tabl-2" src="./img/tabl-2.png" alt="" /> -->
+                <img class="table" src="./img/table.png" alt="таблица">
             </div>            
             <div class="blog__text">
                 <h2 class="blog__text-top text-top">
@@ -141,11 +165,15 @@
         
     <section class="time-padding padding-wrap">
         <div class="time">
-            <h2 class="time__top text-top">Экономьте время и нервы на учете</h2>
-            <div Class="time__down">Автоматическая синхронизация данных с маркетплейсов позволит вам мгновенно получать все важный показатели бизнеса на <br> одном экране. А с помощью мобильной версии вы сможете вносить расходы всего пару кликов </div>
-            <div class="text-bottom">
-                Попробовать&nbsp14&nbspдней&nbspбесплатно
+            <div class="time-topping">
+                <h2 class="time__top text-top">Экономьте время и нервы на учете</h2>
+                <div class="time__down">Автоматическая синхронизация данных с маркетплейсов позволит вам мгновенно получать все важный показатели бизнеса на одном экране. А с помощью мобильной версии вы сможете вносить расходы всего пару кликов </div>
+                <div class="time-bottom">
+                    <div class="text-bottom">Попробовать&nbsp14&nbspдней&nbspбесплатно </div>
+                    <!-- <div class="text-bottom">123</div> -->
+                </div>
             </div>
+            
             <div class="time__img">
                 <img class="time__img-slide"src="./img/slide-2.png" alt="">
             </div>
@@ -316,16 +344,31 @@
     <section class="reviews-padding padding-wrap">
         <div class="reviews">
             <h2 class="reviews-top text-top">Отзывы</h2>
-            <img src="./img/review.png" alt="">
+            <div class="reviews-card">
+                <div class="reviews-left">
+                    <div class="reviews-left__top">Впервые за долгое время увидела свои расходы и доходы как на ладони.</div>
+                    <div class="reviews-profes">
+                        <div class="reviews-left__name">Дана Валеева</div>
+                        <div class="reviews-left__WB">Продавец Wildberries</div>
+                    </div> 
+                    <div class="reviews-dots">
+                        <img class="dots" src="./img/dots.svg" alt="Слайдер">
+                    </div>                                   
+            </div>
+            
+            <img class="reviews-right" src="./img/woman.png" alt="Фотография женщины">
+            </div>
+            
             <div class="arrow">
                 <img class="arrow-40 arrow-left" src="./img/Group 218.svg" alt="стрела влево">
                 <img class="arrow-40 arrow-right" src="./img/arrow-right.svg" alt="стрела вправо">
             </div>
+            
         </div>        
     </section>
 
     <footer class="footer">
-        <div class="footer__wrapper">
+        <div class="footer__wrapper padding-wrap">
                 
             <div class="footer__menu">
                 <nav class="menu-small__finio">

@@ -1,14 +1,12 @@
-.body-padding{
+/* .body-padding{
     max-width: var(--layout-width);
     margin: 0 auto;
     padding: 0 264px ;
     
-}
+} */
 
 .body-padding-row{
-    padding: 40px 0 80px 0;
-    border-bottom: 1px solid red;   
-    /* border-top: 1px solid red;  */
+    padding: 90px 0 80px 0;
 }
 
 /* Hero */
@@ -17,7 +15,8 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 80px;
-    border-bottom: 1px solid red;  
+    /* gap: 17px; */
+    /* border-bottom: 1px solid red;   */
 }
 
 /* .hero {
@@ -45,7 +44,7 @@
 
 .line{
     width: 2333px;
-    height: 300px;
+    height: 330px;
     background-color: var(--color-second);
     transform: rotate(-7.00deg);
     position: absolute;
@@ -60,12 +59,12 @@
     gap: 40px;
     max-width: 515px;
     position: relative;
-    top: 100px;
+    top: 73px;
 }
 
 .hero__text-top{
     color: var(--color-second);
-
+    width: 550px;
 }
 
 /* .hero__text-bottom{
@@ -91,9 +90,10 @@
 
 .netbook{
     width: 1039px;
-    height: 627px;    
+    height: 627px;  
     position: relative;
-    top: 140px;
+    /* top: 56px; */
+    left: -17px;
     z-index: 2;
 }
 
@@ -104,15 +104,41 @@
 }
 
 @media (max-width: 1500px) {
-    
+    .netbook{
+        width: 900px;
+        height: 400px;
+    }
+    .line{
+        transform: rotate(-4.00deg);
+            left: -163px;
+            top: 720px;
+    }    
 }
 
-@media (max-width: 1200px) {
-    
+@media (max-width: 1280px) {
+    /* .netbook{
+        display: none;
+    } */
+    .line{
+        width: 2333px;
+        height: 200px;
+        background-color: var(--color-second);
+        transform: rotate(-3.0deg);
+        position: absolute;
+        left: -163px;
+        top: 680px;
+    }
 }
 
 @media (max-width: 960px) {
-    
+    .netbook{
+        display: none;
+    }
+    .line{
+        transform: rotate(-3.00deg);
+        left: -163px;
+        top: 600px;
+    }
 }
 
 @media (max-width: 720px) {
@@ -130,14 +156,16 @@
         padding-top: 32px;
     }
     .line{
-        width: 2333px;
-        height: 200px;
-        background-color: var(--color-second);
         transform: rotate(-7.00deg);
-        position: absolute;
         left: -163px;
-        top: 520px;
-        
+        top: 480px;
     }
 }
 
+@media (max-width: 480px) {
+    .line{
+        transform: rotate(-7.00deg);
+        left: -163px;
+        top: 520px;
+    }
+}

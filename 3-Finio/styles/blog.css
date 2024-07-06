@@ -4,7 +4,7 @@
     display: flex;
     justify-content: space-between;
     padding: 40px 0 38px 0;
-    border-bottom: 1px solid red;  
+    border-bottom: 1px solid var(--color-text-gray-opacity-8);  
 }
 
 .blog__text{
@@ -16,8 +16,9 @@
     
 }
 
-.blog__text-top{
+.blog__text-top-1{
     margin: 0;
+    z-index: 2;
 }
 
 .blog__text-down{
@@ -40,15 +41,20 @@
     gap: 205px;
 }
 
-.blog__tabl-12{
+/* .blog__tabl-12{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 65px;
     border: none;
+} */
+
+.table{
+    width: 642px;
+    height: 373px;
 }
 
-.tabl-2{
+/* .tabl-2{
     position: absolute;
     left: 450px;
     width: 450px;
@@ -59,7 +65,7 @@
     position: relative;
     left: -50px; /* Сдвиг слоя влево */
     /*top: 50px; */
-}
+
 
 /* .tabl-2{
     
@@ -74,9 +80,37 @@
     .blog{
         flex-direction: column;
         position: relative;
-        top: 150px;
+        /* top: 150px; */
+    }
+    .blog__text-top{
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 120%;
     }
     .blog__text-top-1{
         top: 700px;
+    }
+    .blog__img-balance{
+        height: 218px;
+        width: 356px;
+        left: -10px;
+        position: relative;
+    }
+    .blog__img-diagram{
+        width: 328px;
+        height: 226.14px;
+    }
+    .blog__img-diagram-2{
+        width: 328px;
+        height: 213px;
+    }
+    .table{
+        width: 327px;
+        height: 189.66px;        
+    }
+    .blog{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 32px;
     }
 }

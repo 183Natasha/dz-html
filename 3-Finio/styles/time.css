@@ -31,6 +31,21 @@
     padding-bottom: 40px;
 }
 
+.time-topping{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.time-bottom{
+    display: flex;
+    justify-content: center;
+}
+
+.exp{
+    text-align: center;
+}
+
 /* .time__tex-bottom{
     margin: 0 auto 65pх;
 } */

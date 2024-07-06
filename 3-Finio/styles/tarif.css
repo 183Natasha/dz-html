@@ -210,4 +210,7 @@
         grid-template-columns: 1fr;
         gap:  24px;
     }
+    .tarif{
+        padding-bottom: 20px;
+    }
 }
