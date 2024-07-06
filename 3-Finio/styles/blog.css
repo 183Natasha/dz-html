@@ -75,6 +75,14 @@
     left: -200px; /* Сдвиг слоя влево */
     /* top: 100px; */
 /* */
+/* 
+@media (max-width: 1280px) {
+    .blog__text-top{
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 120%;
+    }
+} */
 
 @media (max-width: 720px) {
     .blog{

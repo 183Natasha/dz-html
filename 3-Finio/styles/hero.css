@@ -65,6 +65,7 @@
 .hero__text-top{
     color: var(--color-second);
     width: 550px;
+    
 }
 
 /* .hero__text-bottom{
@@ -146,6 +147,11 @@
         gap: 24px;
         top: 0;
     }
+
+    .hero__text-top{
+        width: 328px;
+    }
+
     .netbook{
         display: none;
     }

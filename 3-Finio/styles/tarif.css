@@ -1,5 +1,6 @@
 .tarif-padding{
     background: var(--color-second);
+    /* padding: 80px; */
 }
 
 .tarif{
@@ -7,7 +8,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 80px 0 80px;
+    padding: 80px 118px 0 118px;
+    /* padding: 80px 0 80px; */
     /* border-bottom: 1px solid red;   */
 }
 
@@ -77,11 +79,12 @@
     line-height: 140%;
     color: var(--color-text-gray);
     padding: 16px 0 16px 0;
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid var(--color-text-gray-opacity-8);
 }
 
 .card-about-3{
     color: var(--color-second);
+    border-bottom: 1px solid var(--color-line);
 }
 
 .card-about-rub-1{
@@ -187,9 +190,12 @@
         grid-template-columns: repeat(2, 1fr);
         gap:  24px;
     }
-    .tarif-padding{
+    /*.tarif{
+        /* padding: 0;
+    } */
+    /* .tarif-padding{
         padding: 48px 150px 64px 150px; 
-    }
+    } */
 }
 
 @media (max-width: 960px) {
@@ -198,9 +204,12 @@
         grid-template-columns: 1fr;
         gap:  24px;
     }
-    .tarif-padding{
+    /* .tarif-padding{
         padding: 48px 24px 64px 24px; 
-    }
+    } */
+    /* .tarif{
+        padding: 48px;
+    } */
 }
 
 
@@ -211,6 +220,6 @@
         gap:  24px;
     }
     .tarif{
-        padding-bottom: 20px;
+        padding: 0 0 20px 0;
     }
 }

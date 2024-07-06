@@ -6,8 +6,9 @@
     --color-text-opacity: rgba(255, 255, 255, 0.8);
     --color-text-opacity-70: rgba(255, 255, 255, 0.7);
     --color-text-opacity-50: rgba(255, 255, 255, 0.5);
-
+    --color-text-opacity-08: rgba(255, 255, 255, 0.08);
     --color-line: rgba(255, 255, 255, 0.16);
+    
     --color-text-black: rgb(0, 0, 0);
     --color-text-gray: rgb(78, 93, 124);
     --color-text-gray-opacity: rgba(78, 93, 124, 0.5);
