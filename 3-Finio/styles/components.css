@@ -33,19 +33,19 @@
 
 @media (max-width: 1800px) {
     .padding-wrap{
-        padding: 0px 150px; 
+        padding: 80px 150px; 
     }
 }
 
 @media (max-width: 1500px) {
     .padding-wrap{
-        padding: 0px 100px; 
+        padding: 80px 100px; 
     }
 }
 
 @media (max-width: 1280px) {
     .padding-wrap{
-        padding: 0px 50px; 
+        padding: 80px 50px; 
     }
     .text-top{
         font-size: 32px;
@@ -70,7 +70,7 @@
         gap: 74px;
     }
     .padding-wrap{
-        padding: 48px 24px 0px 24px; 
+        padding: 48px 23px 0px 24px; 
     }
     .text-bottom{
         width: 328px;

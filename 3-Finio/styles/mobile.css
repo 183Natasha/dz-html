@@ -8,7 +8,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 80px 0 121px; 
+    padding-bottom:  120px; 
 }
 
 .mobile-top{
@@ -49,9 +49,10 @@
         
     }
     .mobile{
-        padding: 48px 0 64px;
+        padding-bottom: 64px;
         border-bottom: 1px solid transparent; 
     }
+    
 }
 
 @media (max-width: 720px) {

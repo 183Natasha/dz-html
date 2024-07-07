@@ -76,7 +76,7 @@
     /* margin-right: 50px; */
     font-size: 17px;
     font-weight: 500;
-    line-height: 140%;
+    line-height: 120%;
     color: var(--color-text-gray);
     padding: 16px 0 16px 0;
     border-bottom: 1px solid var(--color-text-gray-opacity-8);
@@ -222,4 +222,13 @@
     .tarif{
         padding: 0 0 20px 0;
     }
+    .tarif-button{
+            /* width: 280px; */
+            
+    }
+    .tarif__card{
+        padding: 48px 24px 48px 24px;
+        width: 328px;
+    }
+
 }
