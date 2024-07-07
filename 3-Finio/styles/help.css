@@ -15,7 +15,7 @@
     display: flex;
     flex-direction: column;
     width: 444px;
-    /* padding-right: 118px; */
+
 
 }
 
@@ -45,7 +45,7 @@
     display: flex;
     align-items: center;
     gap: 16px;
-    /* padding-bottom: 16px ; */
+
 }
 
 .logo{
@@ -62,18 +62,6 @@
 }
 
 
-/* @media (max-width: 1800px) {
-    .help-padding{
-        padding: 0px 264px; 
-        background-color: var(--color-second);
-    }
-}
-
-@media (max-width: 1800px) {
-    .help-padding{
-        padding: 0px 150px; 
-    }
-} */
 
 @media (max-width: 1800px) {
     .help-padding{
@@ -86,7 +74,7 @@
         padding: 0px 100px; 
     }
     .help__right{
-        padding-right: 5px;
+        padding-right: 15px;
     }
 }
 
@@ -98,7 +86,7 @@
         width: 327px;
         height: 279px;
         position: relative;
-        top: 138px;
+        top: 150px;
     }
 }
 
@@ -128,5 +116,6 @@
     }
     .help__right-top{
         padding-top: 0px;
+        font-size: 36px;
     }
 }

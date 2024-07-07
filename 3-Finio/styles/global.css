@@ -14,7 +14,6 @@
     --color-text-gray-opacity: rgba(78, 93, 124, 0.5);
     --color-text-gray-opacity-8: rgba(78, 93, 124, 0.08);
     
-    
 
     --color-num: rgb(255, 199, 54);
     --color-green: rgb(26, 188, 156);
@@ -24,11 +23,6 @@
     --border-34: 34px;
 }
 
-/* html{
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    -text-rendering: optimizeLegibility;
-} */
 
 *{
     box-sizing: border-box;

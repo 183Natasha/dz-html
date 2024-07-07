@@ -1,6 +1,5 @@
 .tarif-padding{
     background: var(--color-second);
-    /* padding: 80px; */
 }
 
 .tarif{
@@ -9,8 +8,6 @@
     justify-content: center;
     align-items: center;
     padding: 80px 118px 0 118px;
-    /* padding: 80px 0 80px; */
-    /* border-bottom: 1px solid red;   */
 }
 
 .tarif-top{
@@ -27,14 +24,12 @@
 
 .tarif__card{
     border-radius: 8px;
-    /* shadow 16% */
     border: none;
     box-shadow: 0px 0px 32px 0px rgba(78, 93, 124, 0.16);
     background: rgb(255, 255, 255);
     text-align: start;
     padding: 48px 40px;
-    /* width: 369px;
-    height: 507px; */
+
 } 
 
 .card-3{
@@ -50,7 +45,7 @@
     font-size: 17px;
     font-weight: 800;
     line-height: 140%;
-    padding: 12px 63px 12px 63px;
+    padding: 12px 48px 12px 48px;
     cursor: pointer;
 }
 
@@ -107,16 +102,24 @@
     margin-bottom: 16px;
 }
 
+
 .tarif__card-text{
     font-size: 17px;
     font-weight: 500;
     line-height: 140%;
     color: var(--color-text-gray-opacity);
-    margin-bottom: 34px;
+}
+
+.tarif__card-text-1{
+    margin-bottom: 55px;
+}
+
+.tarif__card-text-2{
+    margin-bottom: 33px;
 }
 
 .tarif__card-text-3{
-    margin-bottom: 10px;
+    margin-bottom: 32px;
     color: var(--color-text-opacity);
 }
 
@@ -190,12 +193,7 @@
         grid-template-columns: repeat(2, 1fr);
         gap:  24px;
     }
-    /*.tarif{
-        /* padding: 0;
-    } */
-    /* .tarif-padding{
-        padding: 48px 150px 64px 150px; 
-    } */
+
 }
 
 @media (max-width: 960px) {
@@ -204,12 +202,9 @@
         grid-template-columns: 1fr;
         gap:  24px;
     }
-    /* .tarif-padding{
-        padding: 48px 24px 64px 24px; 
-    } */
-    /* .tarif{
-        padding: 48px;
-    } */
+    .tarif{
+        padding: 48px 0 0 0;
+    }
 }
 
 
@@ -219,12 +214,9 @@
         grid-template-columns: 1fr;
         gap:  24px;
     }
-    .tarif{
-        padding: 0 0 20px 0;
-    }
+
     .tarif-button{
-            /* width: 280px; */
-            
+        padding: 12px 48px 12px 48px;
     }
     .tarif__card{
         padding: 48px 24px 48px 24px;

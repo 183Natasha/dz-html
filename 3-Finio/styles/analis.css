@@ -2,7 +2,6 @@
 .analis-line{
     display: flex;
     flex-direction: row;
-    /* gap: 64px; */
     justify-content: space-between;
     position: relative;
     z-index: 0;
@@ -95,20 +94,6 @@
 }
 
 @media (max-width: 720px) {
-    /* .analis-line{
-        display: flex;
-        flex-direction: column;
-        gap: 32px;
-        padding-bottom: 48px;
-        
-    } */
-    /* .analis__card-text{
-        font-size: 18px;
-        font-weight: 700;
-        line-height: 140%;
-        text-align: left;
-    } */
-    
     .analis__card-element{
         width: 48px;
         height: 48px;
@@ -124,7 +109,6 @@
         display: flex;
         flex-direction: column;
         gap: 32px;
-        padding-bottom: 48px;
-        
+        padding-bottom: 48px;        
     }
 }
