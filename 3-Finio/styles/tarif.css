@@ -193,6 +193,17 @@
         grid-template-columns: repeat(2, 1fr);
         gap:  24px;
     }
+}
+
+
+@media (max-width: 1726px) {
+    .tarif__card-text-1{
+        margin-bottom: 33px;
+    }
+    
+    .tarif__card-text-2{
+        margin-bottom: 33px;
+    }
 
 }
 
