@@ -25,6 +25,11 @@
     color: var(--color-text-gray-opacity);
 }
 
+.mobile-container{
+    overflow-x: clip;
+    max-width: 100vw;
+}
+
 .mobile-img{
     width: 1128px;
     height: 749px;
@@ -60,7 +65,8 @@
 
 @media (max-width: 720px) {
     .mobile-img{
-        left: 175px;
+        left: 24px;
+        
     }
     .mobile-top{
         font-size: 36px;
