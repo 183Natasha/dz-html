@@ -20,16 +20,42 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 950px;
+    gap: 1000px;
     position: relative;
     top: -250px;
+    
 }
 
 .arrow-40{
-    width: 84px;
-    height: 84px;
+    width: 12px;
+    height: 20px;
+    cursor: pointer;
+    /* background-size: 15px;
+    border-radius: 50%;
+    background: transparent; */
+    position: absolute;
+    top: 10px;
+    left: 12px;
+
+}
+
+.round-right{
+    transform: scale(-1, 1) 
+}
+
+.round{
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    background: var(--color-text-opacity-60);
     cursor: pointer;
 }
+
+.round:hover{
+    background: var(--color-second);
+}
+
 
 .reviews-card{
     display: flex;
@@ -91,7 +117,6 @@
 
 
 @media (max-width: 1500px) {
-    
 }
 
 @media (max-width: 1280px) {
@@ -104,14 +129,17 @@
         
     }
 
+
     .reviews-card{
-        width: 328px;
-        height: 609px;
-        flex-direction: column-reverse;
+        width: 100%;
+        height: 300px;
+        justify-content: center;
     }    
+
+
     .reviews-right{
-        width: 328px;
-        height: 249px;
+        width: 50%;
+        height: auto;
         border-radius: 8px;
     }
     .reviews-left{
@@ -125,20 +153,29 @@
         word-wrap: break-word;
         
     }
+    
     .arrow{
-        display: none;
+        top: -187px;
+        gap: calc(100vw - 430px);
     }
-    .dots{
-        display: block;
-        position: relative;
-        margin: auto;
 
-    }
+    
 }
 
 
 
 @media (max-width: 960px) {
+    .reviews{
+        padding: 10px;
+    }
+    .arrow{
+        top: -144px;
+        gap: calc(100vw - 215px);
+    }
+}
+
+
+@media (max-width: 720px) {
     .reviews-padding{
         padding-top: 68px;
     }
@@ -169,4 +206,18 @@
     .reviews{
         padding: 64px 0 64px 0;
     }
-}
+    .dots{
+        display: block;
+        position: relative;
+        margin: auto;
+    }
+    .arrow{
+        display: none;
+    }
+    .reviews-card{
+        width: 328px;
+        height: 609px;
+        flex-direction: column-reverse;
+    } 
+} 
+
