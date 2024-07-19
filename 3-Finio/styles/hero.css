@@ -12,6 +12,7 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 80px;
+    overflow:hidden; 
 }
 
 
@@ -33,14 +34,11 @@
     display: flex;
     flex-direction: column;
     gap: 40px;
-    max-width: 515px;
-    position: relative;
-    top: 73px;
+    min-width: 458px;
 }
 
 .hero__text-top{
     color: var(--color-second);
-    width: 550px;    
     font-size: 40px;
 }
 
@@ -59,17 +57,9 @@
     position: relative;
 }
 
-.netbook{
-    width: 1039px;
-    height: 627px;  
-    position: relative;
-    /* left: 720px;
-    right: -720px; */
-    top: 77px;
-    /* bottom: -186px; */
-    z-index: 2;
-    
-}
+/* .netbook{
+    overflow:hidden;    
+} */
 
 .test{
     width: 100vw;
