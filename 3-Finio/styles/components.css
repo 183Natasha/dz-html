@@ -4,6 +4,7 @@
     padding: 0 264px ;
 }
 
+
 .text-top{
     font-weight: 600;
     line-height: 120%;
@@ -14,7 +15,6 @@
 .text-bottom{
     width: 345px;
     height: 48px;
-    font-size: 17px;
     font-weight: 800;
     line-height: 140%;
     text-align: center;
