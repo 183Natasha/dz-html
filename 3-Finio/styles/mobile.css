@@ -1,6 +1,7 @@
 
 .mobile-padding{
     background: var(--color-second);
+    overflow: hidden;
 }
 
 .mobile{
@@ -9,6 +10,7 @@
     justify-content: center;
     align-items: center;
     padding: 80px 0 120px; 
+
 }
 
 .mobile-top{
@@ -26,7 +28,7 @@
 }
 
 .mobile-container{
-    overflow-x: clip;
+    /* overflow-x: clip; */
     max-width: 100%;
 }
 
