@@ -1,6 +1,6 @@
 .help-padding{
     background: var(--color-second);
-    padding: 0px 264px; 
+    
     
 }
 
@@ -9,6 +9,7 @@
     justify-content: center;
     background: var(--color-first);
     gap: 74px;
+    border-radius: 16px;
 }
 
 .help__left{

@@ -64,7 +64,7 @@
     .footer__copywrite{
         display: flex;
         flex-direction: column-reverse;
-        padding: 48px 0 64px 0;
+        
         gap: 24px;
     }
     .footer-banks{

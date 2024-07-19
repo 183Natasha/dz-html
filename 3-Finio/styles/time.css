@@ -5,9 +5,13 @@
 }
 
 .time{
-    padding: 120px 118px 0;
+    padding: 120px 0 0 0;
 }
 
+.time__img{
+    display: flex;
+    justify-content: center;
+}
 
 
 .time__top{

@@ -20,7 +20,7 @@
     --color-num: rgb(255, 199, 54);
     --color-green: rgb(26, 188, 156);
 
-    --layout-width: 1920px;
+    --layout-width: 100%;
 
     --border-34: 34px;
 }
@@ -28,6 +28,7 @@
 
 *{
     box-sizing: border-box;
+    
 }
 
 body{
@@ -36,10 +37,8 @@ body{
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400;
-    /* overflow-x:hidden;  */
 }
 
 a{
     text-decoration: none;
 }
-
