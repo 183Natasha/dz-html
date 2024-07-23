@@ -28,14 +28,10 @@
 }
 
 .mobile-container{
-    /* overflow-x: clip; */
     max-width: 100%;
 }
 
 .mobile-img{
-    /* width: 1128px;
-    height: 749px; */
-    /* width: 100%; */
     position: relative;
 }
 

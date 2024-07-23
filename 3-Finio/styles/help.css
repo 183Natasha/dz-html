@@ -92,19 +92,10 @@
     .help-padding{
         padding: 0px 50px; 
     }
-    /* .help__left-img{
-        width: 50%;
-        position: relative;
-        top: 150px;
-    } */
-    
+
 }
 
 @media (max-width: 960px) {
-    /* .help__right{
-        width: 327px;
-        height: 279px;
-    } */
 
     .help__right{
         width: 100%;
@@ -116,7 +107,6 @@
         flex-direction: column-reverse;
         justify-content: space-between;
         gap: 74px;
-        /* height: 813px; */
         
         
     }
@@ -124,12 +114,7 @@
         padding: 48px 24px 0 24px; 
         background: var(--color-first);
     }
-    /* .help__left-img{
-        width: 327px;
-        height: 279px;
-        position: static;
-        
-    } */
+
     .help__right-top{
         padding-top: 0px;
         font-size: 36px;

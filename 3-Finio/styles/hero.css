@@ -27,10 +27,7 @@
     position: absolute;
     left: -170px;
     top: 755px;
-    /* overflow-x: clip; */
-    /* max-width: 100vw; */
 
-    
 }
 
 .hero__text{
@@ -52,18 +49,12 @@
     height: 85px;
 }
 
-/* .container-netbook{
-    overflow-x: clip;
-    max-width: 100vw;
-} */
 
 .container-netbook {
     position: relative;
 }
 
-/* .netbook{
-   
-}  */
+
 
 .test{
     width: 100vw;
@@ -72,29 +63,9 @@
     overflow-x: clip;
 }
 
-@media (max-width: 1800px) {
-    /* body{
-        overflow-x: hidden;
-        max-width: 100%;
-        width: auto;
-    } */
-    
-    /* .test{
-        overflow-x: hidden;
-        max-width: 100%;
-    } */
-    /* .container-netbook {
-        overflow-x: hidden;
-        max-width: 100vw;
-        right: -150px;
-    } */
-}
+
 
 @media (max-width: 1500px) {
-    /* .netbook{
-        width: 900px;
-        height: 400px;
-    } */
     .line{
         width: 2333px;
         height: 420px;
@@ -104,35 +75,16 @@
     .hero-padding{
         padding-top: 0;
     }
-    /* .container-netbook {
-        overflow-x: clip;
-        max-width: 100vw;
-        right: -100px;
-    } */
-}
-
-@media (max-width: 1280px) {
-    /* .line{
-        width: 2333px;
-        height: 250px;
-        background-color: var(--color-second);
-        transform: rotate(-3.0deg);
-        position: absolute;
-        left: -163px;
-        top: 690px;
-    } */
 
 }
+
+
 
 @media (max-width: 960px) {
     .netbook{
         display: none;
     }
-    /* .line{
-        transform: rotate(-3.00deg);
-        left: -163px;
-        top: 690px;
-    } */
+
 }
 
 @media (max-width: 720px) {
@@ -161,11 +113,6 @@
 }
 
 @media (max-width: 480px) {
-    /* .line{
-        transform: rotate(-7.00deg);
-        left: -163px;
-        top: 500px;
-    } */
     .logos-super{
         width: 264px;
         height: 67px;

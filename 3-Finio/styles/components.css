@@ -1,8 +1,6 @@
 .padding-wrap{
     max-width: var(--layout-width);
     margin: 0 auto;
-    /* padding: 0 264px ; */
-    /* max-width: 1440px; */
 }
 
 .margin-wrapper{
@@ -37,16 +35,9 @@
     margin-bottom: 40px;
     display: flex;
     justify-content: center;
-    
-    /* text-align: center; */
 }
 
 
-/* @media (max-width: 1800px) {
-    .padding-wrap{
-    padding: 0 150px; 
-    }
-} */
 
 @media (max-width: 1500px) {
     .margin-wrapper{
@@ -55,9 +46,6 @@
 } 
 
 @media (max-width: 1280px) {
-    /* .padding-wrap{
-        padding: 0 50px; 
-    } */
     .text-top{
         font-weight: 600;
         line-height: 120%;

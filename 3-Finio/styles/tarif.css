@@ -68,7 +68,6 @@
     display: flex;
     justify-content: space-between;
     align-content: flex-start;
-    /* margin-right: 50px; */
     font-size: 17px;
     font-weight: 500;
     line-height: 120%;
@@ -142,8 +141,8 @@
 
 .tarif__cards{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap:  24px;
+    gap:  24px; 
+    grid-template-columns: repeat(auto-fit, minmax(328px, 369px));
 }
 
 .card-yellow{
@@ -167,35 +166,6 @@
 
 
 
-/* @media (max-width: 1800px) {
-    
-}
-
-@media (max-width: 1500px) {
-    
-}
-
-@media (max-width: 1200px) {
-    
-}
-
-@media (max-width: 960px) {
-    
-}
-
-@media (max-width: 720px) {
-    
-} */
-
-@media (max-width: 1800px) {
-    .tarif__cards{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap:  24px;
-    }
-}
-
-
 @media (max-width: 1726px) {
     .tarif__card-text-1{
         margin-bottom: 33px;
@@ -208,11 +178,6 @@
 }
 
 @media (max-width: 960px) {
-    .tarif__cards{
-        display: grid;
-        grid-template-columns: 1fr;
-        gap:  24px;
-    }
     .tarif{
         padding: 48px 0 0 0;
     }
@@ -220,11 +185,6 @@
 
 
 @media (max-width: 720px) {
-    .tarif__cards{
-        display: grid;
-        grid-template-columns: 1fr;
-        gap:  24px;
-    }
 
     .tarif-button{
         padding: 12px 48px 12px 48px;
