@@ -141,8 +141,9 @@
 
 .tarif__cards{
     display: grid;
+    width: 100%;
     gap:  24px; 
-    grid-template-columns: repeat(auto-fit, minmax(328px, 369px));
+    grid-template-columns: repeat(auto-fit, minmax(328px, 1fr));
 }
 
 .card-yellow{
