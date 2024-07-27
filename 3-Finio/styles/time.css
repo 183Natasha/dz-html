@@ -1,0 +1,150 @@
+/* Time */
+
+.time-padding{
+    background: var(--color-first);
+}
+
+.time{
+    padding: 120px 0 0 0;
+}
+
+.time__img{
+    display: flex;
+    justify-content: center;
+}
+
+
+.time__top{
+    color: var(--color-second);
+    text-align: center;
+    margin: 0 0 24px 0;
+    font-size: 48px;
+}
+
+.time__down{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 140%;
+    color: var(--color-second);
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.time-topping{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.time-bottom{
+    display: flex;
+    justify-content: center;
+}
+
+.exp{
+    text-align: center;
+}
+
+
+
+.time__tabl{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 120px;
+}
+
+.time__tabl-h3{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 120%;
+    color: var(--color-second);
+    padding-left: 16px;
+}
+
+
+
+.time__item{
+    color: var(--color-text-opacity);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 140%;
+    /* padding-bottom: 24px; */
+    padding-left: 8px;
+}
+
+.time__tabl-left li::marker {
+	content: url("../img/exclamation-circle.svg");
+}
+
+.time__tabl-right li::marker {
+	content: url("../img/check-circle.svg");
+}
+
+
+.time__img-left{
+    position: absolute;
+    z-index: 1;
+}
+
+.time__img-right{
+    position: absolute;
+    top: -33px;
+    left: -32px;
+}
+
+.time__img-arrow{
+    z-index: 2;
+    position: absolute;
+    left: 548px;
+}
+
+@media (max-width: 1800px) {
+    
+}
+
+@media (max-width: 1600px) {
+    .time__img-slide{
+        width: 100%;
+        margin-bottom: 54.41px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .time{
+        padding: 120px 0 0 0;
+    }
+    
+}
+
+@media (max-width: 960px) {
+    /* .time__img-slide{
+        width: 600px;
+        margin-bottom: 54.41px;
+    } */
+}
+
+@media (max-width: 720px) {
+    .time__tabl{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 64px;
+    }
+    .time__img-slide{
+        width: 432px;
+        margin-bottom: 54.41px;
+    }
+    .time__down{
+        text-align: start;
+    }
+    .time__top{
+        padding: 16px 0 24px;
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 480px) {
+    .time__img-slide{
+        width: 328px;
+        margin-bottom: 54.41px;
+    }
+}

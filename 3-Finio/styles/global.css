@@ -1,0 +1,46 @@
+:root{
+    --color-first: rgb(53, 126, 254);
+    --color-second: rgb(255, 255, 255);
+    --color-bg-footer: rgb(26, 29, 37);
+
+    --color-text-opacity: rgba(255, 255, 255, 0.8);
+    --color-text-opacity-50: rgba(255, 255, 255, 0.5);
+    --color-text-opacity-60: rgba(255, 255, 255, 0.6);
+    --color-text-opacity-70: rgba(255, 255, 255, 0.7);
+    
+    --color-text-opacity-08: rgba(255, 255, 255, 0.08);
+    --color-line: rgba(255, 255, 255, 0.16);
+    
+    --color-text-black: rgb(0, 0, 0);
+    --color-text-gray: rgb(78, 93, 124);
+    --color-text-gray-opacity: rgba(78, 93, 124, 0.5);
+    --color-text-gray-opacity-8: rgba(78, 93, 124, 0.08);
+    
+
+    --color-num: rgb(255, 199, 54);
+    --color-green: rgb(26, 188, 156);
+
+    --layout-width: 100%;
+
+    --border-34: 34px;
+}
+
+
+*{
+    box-sizing: border-box;
+        /* outline: 4px solid green !important; */
+}
+
+body{
+    background: var(--color-second) ; 
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
